@@ -1,4 +1,3 @@
-# Maurício Oliveira
 
 **[Ver portfólio](https://mauriciofeoli.github.io/wiki/)** · [English version](https://mauriciofeoli.github.io/wiki/?lang=en)
 
