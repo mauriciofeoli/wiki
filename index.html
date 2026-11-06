@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maurício Oliveira — QA Engineer</title>
+  <meta name="description" content="Portfólio de Maurício Oliveira, QA Engineer em meios de pagamento e telecom. Experiências, competências e formação.">
+  <meta name="author" content="Maurício Oliveira">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Maurício Oliveira — QA Engineer">
+  <meta property="og:description" content="QA Engineer com experiência em meios de pagamento e telecom. Automação de testes web e de API, CI/CD e IA aplicada à qualidade.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://mauriciofeoli.github.io/portifolio-wiki.mauricio/">
+  <meta property="og:image" content="https://mauriciofeoli.github.io/portifolio-wiki.mauricio/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.85em' font-size='90' font-family='Georgia'>M</text></svg>">
+
+  <!-- Fica inline para definir tema e idioma antes da primeira pintura, sem uma requisição a mais. -->
+  <script>
+    (function () {
+      var t;
+      try { t = localStorage.getItem("tema"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+
+      var l = new URLSearchParams(location.search).get("lang");
+      if (l !== "pt" && l !== "en") { try { l = localStorage.getItem("idioma"); } catch (e) {} }
+      if (l !== "pt" && l !== "en") l = /^pt/i.test(navigator.language || "pt") ? "pt" : "en";
+      document.documentElement.setAttribute("data-lang", l);
+      if (l === "en") document.documentElement.lang = "en";
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <div class="v-pt" lang="pt-BR">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar">
+    <span>Maurício Oliveira</span>
+    <nav aria-label="Seções">
+      <a href="#sobre">Sobre</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#competencias">Competências</a>
+      <a href="#formacao">Formação</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="page">
+    <article>
+      <header class="page-header">
+        <div class="title-row">
+          <h1>Maurício Oliveira</h1>
+          <div class="tools">
+            <button type="button" class="set-lang" data-lang="pt" aria-pressed="true" title="Português">
+              <svg class="flag" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#009c3b"/><path d="M10 1.6 18.4 7 10 12.4 1.6 7z" fill="#ffdf00"/><circle cx="10" cy="7" r="3.1" fill="#002776"/></svg>
+              <span class="skip">Português</span>
+            </button>
+            <button type="button" class="set-lang" data-lang="en" aria-pressed="false" title="English">
+              <svg class="flag" viewBox="0 0 19 10" preserveAspectRatio="none" aria-hidden="true"><rect width="19" height="10" fill="#b22234"/><path d="M0 1.15h19M0 2.69h19M0 4.23h19M0 5.77h19M0 7.31h19M0 8.85h19" stroke="#fff" stroke-width=".77"/><rect width="7.6" height="5.38" fill="#3c3b6e"/></svg>
+              <span class="skip">English</span>
+            </button>
+            <span class="sep" aria-hidden="true"></span>
+            <button type="button" class="tema" aria-label="Alternar entre tema claro e escuro" title="Tema claro/escuro">
+              <svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              <svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            </button>
+          </div>
+        </div>
+        <p class="from">QA Engineer · Automação de Testes · <abbr title="Integração e Entrega Contínuas">CI/CD</abbr> · IA aplicada à Qualidade</p>
+        <ul class="links" aria-label="Contato rápido">
+          <li><a href="mailto:mauriciofeoli@outlook.com">E-mail</a></li>
+          <li><a href="https://www.linkedin.com/in/mauriciofeoli">LinkedIn</a></li>
+          <li><a href="https://github.com/mauriciofeoli">GitHub</a></li>
+          <li><a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1BlN5CDmsqApgv_drLztixfFqodHtEPLc">↓ Currículo (PDF)</a></li>
+        </ul>
+      </header>
+
+      <!-- Infobox lateral -->
+      <aside class="infobox" aria-label="Resumo do perfil">
+        <figure>
+          <div class="avatar" aria-hidden="true">MO</div>
+          <figcaption>Maurício Oliveira</figcaption>
+        </figure>
+        <table>
+          <caption>Informações</caption>
+          <tbody>
+            <tr><th scope="row">Cargo</th><td>QA Engineer</td></tr>
+            <tr><th scope="row">Local</th><td>Guarulhos – SP</td></tr>
+            <tr><th scope="row">Especialidade</th><td>Automação e IA</td></tr>
+            <tr><th scope="row">Modalidade</th><td>Remoto</td></tr>
+          </tbody>
+        </table>
+      </aside>
+
+      <section id="sobre" aria-labelledby="sobre-titulo">
+        <h2 id="sobre-titulo" hidden>Sobre</h2>
+        <p>
+          Olá, sou o Maurício. Atuo como QA Engineer na <a class="ext" href="https://www.nttdata.com/global/en/" target="_blank" rel="noopener">NTT DATA</a>, em projetos de meios de
+          pagamento, e tenho experiência anterior em telecom. No dia a dia, automatizo testes
+          web e de API com <a class="ext" href="https://www.cypress.io" target="_blank" rel="noopener">Cypress</a>, <a class="ext" href="https://playwright.dev" target="_blank" rel="noopener">Playwright</a> e <a class="ext" href="https://www.postman.com" target="_blank" rel="noopener">Postman</a>, executados em pipelines no Jenkins e no Bitbucket.
+        </p>
+        <p>
+          Antes de atuar com QA, desenvolvi APIs no <a class="ext" href="https://cloud.google.com/apigee" target="_blank" rel="noopener">Apigee</a>. Essa experiência me ajuda a entender
+          as integrações que testo, e não apenas o comportamento da tela. Atualmente estudo <a class="ext" href="https://www.python.org" target="_blank" rel="noopener">Python</a>
+          e o uso de IA em testes, como agentes para geração de casos de teste e avaliação de
+          <abbr title="Large Language Models">LLMs</abbr>.
+        </p>
+
+        <details class="toc" open>
+          <summary>Conteúdo</summary>
+          <ol>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#competencias">Competências</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="experiencia" aria-labelledby="exp-titulo">
+        <h2 id="exp-titulo">Experiência</h2>
+        <ol class="timeline" reversed>
+
+          <li>
+            <article>
+              <h3>QA Engineer — NTT DATA</h3>
+              <p class="meta"><time datetime="2025-08">ago/2025</time> – atual · Meios de pagamento</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Cypress</li><li>Postman</li><li>APIs REST</li><li>RabbitMQ</li><li>Jenkins</li><li>Bitbucket Pipelines</li><li>Jira</li><li>Agentes de IA</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Analista de QA — Spread Tecnologia</h3>
+              <p class="meta"><time datetime="2024-01">jan/2024</time> – <time datetime="2025-08">ago/2025</time> · Telecom</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Postman</li><li>SoapUI</li><li>APIs REST e SOAP</li><li>ALM</li><li>Octane</li><li>Scrum</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Analista de Integração — Spread Tecnologia</h3>
+              <p class="meta"><time datetime="2023-03">mar/2023</time> – <time datetime="2024-01">jan/2024</time> · Telecom</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Apigee</li><li>APIs REST e SOAP</li><li>Swagger/OpenAPI</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Assistente Administrativo — Fundação São Paulo (PUC-SP)</h3>
+              <p class="meta"><time datetime="2022-10">out/2022</time> – <time datetime="2023-03">mar/2023</time> · Assessoria de Projetos Interinstitucional</p>
+              <ul class="tags" aria-label="Atividades">
+                <li>Desenvolvimento de projetos</li><li>Validação de eventos</li><li>Prestação de contas</li><li>Conciliação bancária</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Assistente de TI — Linx / Stone Co.</h3>
+              <p class="meta"><time datetime="2019-11">nov/2019</time> – <time datetime="2021-12">dez/2021</time> · Meios de pagamento</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Testes manuais</li><li>Maquininhas Stone</li><li>Testes de app</li><li>Documentação técnica</li><li>Tech writer</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Auxiliar Administrativo — Aché Laboratórios</h3>
+              <p class="meta"><time datetime="2019-05">mai/2019</time> – <time datetime="2019-11">nov/2019</time> · Indústria farmacêutica</p>
+              <ul class="tags" aria-label="Stack">
+                <li>SAP</li><li>Excel</li><li>Logística reversa</li><li>Fechamento de produto</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Assistente Administrativo — Unisys</h3>
+              <p class="meta"><time datetime="2016-11">nov/2016</time> – <time datetime="2018-11">nov/2018</time> · Tecnologia</p>
+              <ul class="tags" aria-label="Atividades">
+                <li>Logística reversa</li><li>Acompanhamento de técnicos de campo</li><li>PDV</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Social Media — Autônomo</h3>
+              <p class="meta"><time datetime="2015-02">fev/2015</time> – <time datetime="2022-11">nov/2022</time></p>
+              <ul class="tags" aria-label="Ferramentas">
+                <li>Google Ads</li><li>Meta Ads</li><li>Google Analytics</li><li>Automação de e-mail</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Assistente Administrativo (Jovem Aprendiz) — BASF</h3>
+              <p class="meta"><time datetime="2014-11">nov/2014</time> – <time datetime="2016-03">mar/2016</time> · Change &amp; Training</p>
+              <ul class="tags" aria-label="Atividades">
+                <li>Treinamento</li><li>Comunicação interna</li><li>Eventos internos</li><li>Edição de vídeo</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Estagiário (Jovem Cidadão) — Advocacia Pietro Ariboni</h3>
+              <p class="meta"><time datetime="2013-05">mai/2013</time> – <time datetime="2014-03">mar/2014</time> · Jurídico</p>
+              <ul class="tags" aria-label="Atividades">
+                <li>Office boy</li>
+              </ul>
+            </article>
+          </li>
+
+          <!--
+            Modelo para novas experiências: copie e cole na posição certa da linha do tempo.
+          <li>
+            <article>
+              <h3>Cargo — Empresa</h3>
+              <p class="meta"><time datetime="AAAA-MM">mês/ano</time> – <time datetime="AAAA-MM">mês/ano</time> · Área</p>
+              <ul class="tags"><li>Ferramenta</li></ul>
+            </article>
+          </li>
+          -->
+        </ol>
+      </section>
+
+      <section id="competencias" aria-labelledby="comp-titulo">
+        <h2 id="comp-titulo">Competências</h2>
+        <table class="skills">
+          <thead>
+            <tr><th scope="col">Área</th><th scope="col">Ferramentas e conhecimentos</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Automação web e mobile</th><td>Cypress, Playwright, Appium</td></tr>
+            <tr><th scope="row">API e contrato</th><td>Postman, SoapUI, PactumJS, REST, SOAP, GraphQL</td></tr>
+            <tr><th scope="row">Performance e acessibilidade</th><td>JMeter, k6, WCAG</td></tr>
+            <tr><th scope="row">CI/CD</th><td>Git, GitHub Actions, GitLab, Jenkins, Bitbucket Pipelines, Docker</td></tr>
+            <tr><th scope="row">Integração</th><td>RabbitMQ, Apigee, Swagger/OpenAPI, microsserviços</td></tr>
+            <tr><th scope="row">Gestão de testes</th><td>Jira, Zephyr, ALM, Octane</td></tr>
+            <tr><th scope="row">IA aplicada a QA</th><td>Avaliação de LLMs, agentes de IA, sistemas multiagentes, MCP</td></tr>
+            <tr><th scope="row">Linguagens e dados</th><td>JavaScript, Python, SQL</td></tr>
+            <tr><th scope="row">Domínio</th><td>Meios de pagamento, adquirência, telecom</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="formacao" aria-labelledby="form-titulo">
+        <h2 id="form-titulo">Formação</h2>
+        <dl class="plain">
+          <dt>Engenheiro de Qualidade de Software — EBAC</dt>
+          <dd><time datetime="2025-08">ago/2025</time> – <time datetime="2026-09">set/2026</time></dd>
+          <dt>Curso de Tecnologia da Informação — OneBitCode</dt>
+          <dd><time datetime="2023-01">jan/2023</time> – <time datetime="2025-12">dez/2025</time></dd>
+          <dt>Idiomas</dt>
+          <dd>Português (nativo) · Inglês (básico)</dd>
+        </dl>
+      </section>
+
+      <section id="contato" aria-labelledby="cont-titulo">
+        <h2 id="cont-titulo">Contato</h2>
+        <address>
+          <ul>
+            <li>E-mail: <a href="mailto:mauriciofeoli@outlook.com">mauriciofeoli@outlook.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/mauriciofeoli" rel="me">linkedin.com/in/mauriciofeoli</a></li>
+            <li>GitHub: <a href="https://github.com/mauriciofeoli" rel="me">github.com/mauriciofeoli</a></li>
+            <li>Currículo: <a href="https://drive.google.com/uc?export=download&amp;id=1BlN5CDmsqApgv_drLztixfFqodHtEPLc">baixar em PDF</a></li>
+          </ul>
+        </address>
+      </section>
+    </article>
+
+    <footer>
+      <p>Esta página foi editada pela última vez em <time datetime="2026-11-06">6 de novembro de 2026</time>.</p>
+    </footer>
+  </main>
+  </div>
+
+  <div class="v-en" lang="en">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="topbar">
+    <span>Maurício Oliveira</span>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content" class="page">
+    <article>
+      <header class="page-header">
+        <div class="title-row">
+          <h1>Maurício Oliveira</h1>
+          <div class="tools">
+            <button type="button" class="set-lang" data-lang="pt" aria-pressed="false" title="Português">
+              <svg class="flag" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#009c3b"/><path d="M10 1.6 18.4 7 10 12.4 1.6 7z" fill="#ffdf00"/><circle cx="10" cy="7" r="3.1" fill="#002776"/></svg>
+              <span class="skip">Português</span>
+            </button>
+            <button type="button" class="set-lang" data-lang="en" aria-pressed="true" title="English">
+              <svg class="flag" viewBox="0 0 19 10" preserveAspectRatio="none" aria-hidden="true"><rect width="19" height="10" fill="#b22234"/><path d="M0 1.15h19M0 2.69h19M0 4.23h19M0 5.77h19M0 7.31h19M0 8.85h19" stroke="#fff" stroke-width=".77"/><rect width="7.6" height="5.38" fill="#3c3b6e"/></svg>
+              <span class="skip">English</span>
+            </button>
+            <span class="sep" aria-hidden="true"></span>
+            <button type="button" class="tema" aria-label="Toggle light and dark theme" title="Light/dark theme">
+              <svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              <svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            </button>
+          </div>
+        </div>
+        <p class="from">QA Engineer · Test Automation · <abbr title="Continuous Integration and Delivery">CI/CD</abbr> · AI for Quality</p>
+        <ul class="links" aria-label="Quick contact">
+          <li><a href="mailto:mauriciofeoli@outlook.com">E-mail</a></li>
+          <li><a href="https://www.linkedin.com/in/mauriciofeoli">LinkedIn</a></li>
+          <li><a href="https://github.com/mauriciofeoli">GitHub</a></li>
+          <li><a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1BlN5CDmsqApgv_drLztixfFqodHtEPLc" title="PDF in Portuguese">↓ Résumé (PT)</a></li>
+        </ul>
+      </header>
+
+      <!-- Infobox lateral -->
+      <aside class="infobox" aria-label="Profile summary">
+        <figure>
+          <div class="avatar" aria-hidden="true">MO</div>
+          <figcaption>Maurício Oliveira</figcaption>
+        </figure>
+        <table>
+          <caption>Information</caption>
+          <tbody>
+            <tr><th scope="row">Role</th><td>QA Engineer</td></tr>
+            <tr><th scope="row">Location</th><td>Guarulhos, Brazil</td></tr>
+            <tr><th scope="row">Focus</th><td>Automation and AI</td></tr>
+            <tr><th scope="row">Setup</th><td>Remote</td></tr>
+          </tbody>
+        </table>
+      </aside>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title" hidden>About</h2>
+        <p>
+          Hi, I'm Maurício. I work as a QA Engineer at <a class="ext" href="https://www.nttdata.com/global/en/" target="_blank" rel="noopener">NTT DATA</a> on payments projects, and I
+          previously worked in telecom. Day to day, I automate web and API tests with <a class="ext" href="https://www.cypress.io" target="_blank" rel="noopener">Cypress</a>,
+          <a class="ext" href="https://playwright.dev" target="_blank" rel="noopener">Playwright</a> and <a class="ext" href="https://www.postman.com" target="_blank" rel="noopener">Postman</a>, running in Jenkins and Bitbucket pipelines.
+        </p>
+        <p>
+          Before moving into QA, I built APIs on <a class="ext" href="https://cloud.google.com/apigee" target="_blank" rel="noopener">Apigee</a>. That background helps me understand the
+          integrations I test, not just how the screen behaves. I'm currently studying <a class="ext" href="https://www.python.org" target="_blank" rel="noopener">Python</a> and
+          the use of AI in testing, such as agents that generate test cases and the evaluation of
+          <abbr title="Large Language Models">LLMs</abbr>.
+        </p>
+
+        <details class="toc" open>
+          <summary>Contents</summary>
+          <ol>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="experience" aria-labelledby="exp-title">
+        <h2 id="exp-title">Experience</h2>
+        <ol class="timeline" reversed>
+
+          <li>
+            <article>
+              <h3>QA Engineer — NTT DATA</h3>
+              <p class="meta"><time datetime="2025-08">Aug 2025</time> – present · Payments</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Cypress</li><li>Postman</li><li>REST APIs</li><li>RabbitMQ</li><li>Jenkins</li><li>Bitbucket Pipelines</li><li>Jira</li><li>AI agents</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>QA Analyst — Spread Tecnologia</h3>
+              <p class="meta"><time datetime="2024-01">Jan 2024</time> – <time datetime="2025-08">Aug 2025</time> · Telecom</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Postman</li><li>SoapUI</li><li>REST and SOAP APIs</li><li>ALM</li><li>Octane</li><li>Scrum</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Integration Analyst — Spread Tecnologia</h3>
+              <p class="meta"><time datetime="2023-03">Mar 2023</time> – <time datetime="2024-01">Jan 2024</time> · Telecom</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Apigee</li><li>REST and SOAP APIs</li><li>Swagger/OpenAPI</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Administrative Assistant — Fundação São Paulo (PUC-SP)</h3>
+              <p class="meta"><time datetime="2022-10">Oct 2022</time> – <time datetime="2023-03">Mar 2023</time> · Inter-institutional Projects Office</p>
+              <ul class="tags" aria-label="Activities">
+                <li>Project development</li><li>Event validation</li><li>Expense reporting</li><li>Bank reconciliation</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>IT Assistant — Linx / Stone Co.</h3>
+              <p class="meta"><time datetime="2019-11">Nov 2019</time> – <time datetime="2021-12">Dec 2021</time> · Payments</p>
+              <ul class="tags" aria-label="Stack">
+                <li>Manual testing</li><li>Stone POS terminals</li><li>App testing</li><li>Technical documentation</li><li>Tech writer</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Administrative Assistant — Aché Laboratórios</h3>
+              <p class="meta"><time datetime="2019-05">May 2019</time> – <time datetime="2019-11">Nov 2019</time> · Pharmaceuticals</p>
+              <ul class="tags" aria-label="Stack">
+                <li>SAP</li><li>Excel</li><li>Reverse logistics</li><li>Product closing</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Administrative Assistant — Unisys</h3>
+              <p class="meta"><time datetime="2016-11">Nov 2016</time> – <time datetime="2018-11">Nov 2018</time> · Technology</p>
+              <ul class="tags" aria-label="Activities">
+                <li>Reverse logistics</li><li>Field technician support</li><li>POS</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Social Media — Freelance</h3>
+              <p class="meta"><time datetime="2015-02">Feb 2015</time> – <time datetime="2022-11">Nov 2022</time></p>
+              <ul class="tags" aria-label="Tools">
+                <li>Google Ads</li><li>Meta Ads</li><li>Google Analytics</li><li>Email automation</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Administrative Assistant (Apprentice) — BASF</h3>
+              <p class="meta"><time datetime="2014-11">Nov 2014</time> – <time datetime="2016-03">Mar 2016</time> · Change &amp; Training</p>
+              <ul class="tags" aria-label="Activities">
+                <li>Training</li><li>Internal communications</li><li>Internal events</li><li>Video editing</li>
+              </ul>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h3>Intern (Jovem Cidadão program) — Advocacia Pietro Ariboni</h3>
+              <p class="meta"><time datetime="2013-05">May 2013</time> – <time datetime="2014-03">Mar 2014</time> · Legal</p>
+              <ul class="tags" aria-label="Activities">
+                <li>Office assistant</li>
+              </ul>
+            </article>
+          </li>
+
+        </ol>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-title">
+        <h2 id="skills-title">Skills</h2>
+        <table class="skills">
+          <thead>
+            <tr><th scope="col">Area</th><th scope="col">Tools and knowledge</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Web and mobile automation</th><td>Cypress, Playwright, Appium</td></tr>
+            <tr><th scope="row">API and contract</th><td>Postman, SoapUI, PactumJS, REST, SOAP, GraphQL</td></tr>
+            <tr><th scope="row">Performance and accessibility</th><td>JMeter, k6, WCAG</td></tr>
+            <tr><th scope="row">CI/CD</th><td>Git, GitHub Actions, GitLab, Jenkins, Bitbucket Pipelines, Docker</td></tr>
+            <tr><th scope="row">Integration</th><td>RabbitMQ, Apigee, Swagger/OpenAPI, microservices</td></tr>
+            <tr><th scope="row">Test management</th><td>Jira, Zephyr, ALM, Octane</td></tr>
+            <tr><th scope="row">AI for QA</th><td>LLM evaluation, AI agents, multi-agent systems, MCP</td></tr>
+            <tr><th scope="row">Languages and data</th><td>JavaScript, Python, SQL</td></tr>
+            <tr><th scope="row">Domain</th><td>Payments, merchant acquiring, telecom</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="education" aria-labelledby="edu-title">
+        <h2 id="edu-title">Education</h2>
+        <dl class="plain">
+          <dt>Software Quality Engineer program — EBAC</dt>
+          <dd><time datetime="2025-08">Aug 2025</time> – <time datetime="2026-09">Sep 2026</time></dd>
+          <dt>Information Technology course — OneBitCode</dt>
+          <dd><time datetime="2023-01">Jan 2023</time> – <time datetime="2025-12">Dec 2025</time></dd>
+          <dt>Languages</dt>
+          <dd>Portuguese (native) · English (basic)</dd>
+        </dl>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <address>
+          <ul>
+            <li>E-mail: <a href="mailto:mauriciofeoli@outlook.com">mauriciofeoli@outlook.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/mauriciofeoli" rel="me">linkedin.com/in/mauriciofeoli</a></li>
+            <li>GitHub: <a href="https://github.com/mauriciofeoli" rel="me">github.com/mauriciofeoli</a></li>
+            <li>Résumé: <a href="https://drive.google.com/uc?export=download&amp;id=1BlN5CDmsqApgv_drLztixfFqodHtEPLc">download PDF (in Portuguese)</a></li>
+          </ul>
+        </address>
+      </section>
+    </article>
+
+    <footer>
+      <p>This page was last edited on <time datetime="2026-11-06">November 6, 2026</time>.</p>
+    </footer>
+  </main>
+  </div>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
