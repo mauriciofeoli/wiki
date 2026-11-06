@@ -1,9 +1,9 @@
-# portifolio-wiki.mauricio
+# wiki.mauricio
 
 Portfólio pessoal de Maurício Oliveira, QA Engineer.
 
-- Site: https://mauriciofeoli.github.io/portifolio-wiki.mauricio/
-- Versão em inglês: https://mauriciofeoli.github.io/portifolio-wiki.mauricio/?lang=en
+- Site: https://mauriciofeoli.github.io/wiki.mauricio/
+- Versão em inglês: https://mauriciofeoli.github.io/wiki.mauricio/?lang=en
 
 Página estática em HTML, CSS e JavaScript puros, sem dependências nem etapa de build, em português e inglês, com tema claro e escuro.
 
