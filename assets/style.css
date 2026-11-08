@@ -250,7 +250,7 @@ footer {
   .topbar nav { margin-left: 0; flex-wrap: nowrap; overflow-x: auto; gap: 14px; scrollbar-width: none; justify-content: space-between; width: 100%; -webkit-overflow-scrolling: touch; }
   .topbar nav::-webkit-scrollbar { display: none; }
   .topbar nav a { white-space: nowrap; padding: 4px 0; }
-  .topbar nav a[href="#sobre"] { display: none; }
+  .topbar nav a:first-child { display: none; }
 }
 @media (max-width: 360px) { .topbar nav { font-size: 12.5px; gap: 10px; } }
 @media print {
