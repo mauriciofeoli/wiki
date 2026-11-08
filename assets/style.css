@@ -194,6 +194,22 @@ h3 { font-size: 1rem; font-weight: 600; margin: 0; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 0; padding: 0; list-style: none; }
 .tags li { background: var(--tag-bg); border-radius: 4px; padding: 2px 8px; font-size: 12.5px; }
 
+/* Projetos */
+.projects { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.projects > li {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-soft);
+  padding: 14px 16px;
+}
+.projects p { margin: 4px 0 0; font-size: 15px; }
+.projects .proj-links { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 0; padding: 0; list-style: none; font-size: 14px; font-weight: 500; }
+.status {
+  display: inline-block; margin-left: 6px; padding: 0 7px;
+  border: 1px solid var(--line); border-radius: 999px;
+  font-size: 12px; font-weight: 500; color: var(--muted); vertical-align: 2px;
+}
+
 /* Competências */
 .skills { width: 100%; border-collapse: collapse; font-size: 15px; }
 .skills th, .skills td {
