@@ -1,5 +1,5 @@
 var root = document.documentElement;
-var titulos = { pt: document.title, en: "Maurício Oliveira — QA Engineer" };
+var titulos = { pt: document.title, en: "Maurício Oliveira | QA Engineer" };
 
 document.querySelectorAll(".tema").forEach(function (b) {
   b.addEventListener("click", function () {
